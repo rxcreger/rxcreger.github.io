@@ -1,18 +1,18 @@
-.header {
-  background: url(images/hero_image.jpg) center / cover;
+header {
+  background: url(../images/hero_image.jpg) center / cover;
   height: 60vh;
   justify-content: center;
   text-align: center;
   font-weight: bold;
 }
 
-.header h1 {
-  color: hsla(0, 0%, 100%, 0.9);
-  font-weight: bold;
+header h1 {
+  color: #2B2D2F;
+  font-weight: 500;
 }
 
 .slogan {
-  color: #6F6C6C;
+  color: #2B2D2F;
   font-weight: lighter;
   font-size: 1.6rem;
 }
