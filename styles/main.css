@@ -1,18 +1,23 @@
+body {
+  padding-bottom: 5rem;
+}
+
 header {
   background: url(../images/hero_image.jpg) center / cover;
   height: 60vh;
   justify-content: center;
   text-align: center;
   font-weight: bold;
+  padding: 5rem;
 }
 
-header h1 {
+h1 {
   color: #2B2D2F;
   font-weight: 500;
 }
 
 .slogan {
-  color: #2B2D2F;
+  color: hsla(0, 0%, 100%, 0.7);
   font-weight: lighter;
   font-size: 1.6rem;
 }
@@ -31,15 +36,15 @@ main {
 
 footer.mdl-mini-footer {
   bottom: 0;
+  padding: 0.5rem;
   position: fixed;
   width: 100%;
   z-index: 1;
 }
 
-ul.mdl-mini-footer__link-list {
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
+footer.mdl-mini-footer > ul {
+  margin: auto;
+  font-size: 2rem;
 }
 
 @media screen and (max-width: 1024px) {
